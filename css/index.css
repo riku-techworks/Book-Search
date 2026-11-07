@@ -1,0 +1,20 @@
+/*書籍情報を表示する要素*/
+div#result {
+  padding-inline: 60px;
+}
+
+/*書籍情報全体を囲う要素*/
+ul.book_lists {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+  padding: 0;
+}
+
+/*一つの一つの書籍情報を格納する要素*/
+ul.book_lists li {
+  padding: 20px;
+  border: 1px solid #000;
+  border-radius: 10px;
+}
